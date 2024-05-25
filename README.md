@@ -21,3 +21,5 @@ npm run build
 ## Run the Application
 
 npm run start:dev
+
+#### The application will start on the port specified in your .env file. By default, it runs on http://localhost:3000.
