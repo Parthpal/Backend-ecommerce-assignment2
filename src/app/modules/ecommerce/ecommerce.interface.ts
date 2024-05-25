@@ -1,0 +1,19 @@
+import { Model } from "mongoose";
+
+export type Tvariants = {
+  type: string;
+  value: string;
+};
+export type Tinventory = {
+  quantity: Number;
+  inStock: boolean;
+};
+export type Tproduct = {
+  name: string;
+  description: string;
+  price: number;
+  category: string;
+  tags: string[];
+  variants: Tvariants[];
+  inventory: Tinventory;
+};
